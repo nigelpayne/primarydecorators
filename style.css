@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'Objectivity Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Objectivity Regular'), url('Objectivity-Regular.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Objectivity Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Objectivity Medium'), url('Objectivity-Medium.woff2') format('woff2');
+}
+@font-face {
+    font-family: 'Objectivity Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Objectivity Bold'), url('Objectivity-Bold.woff2') format('woff2');
+}
+
+body {
+  background: #0034B7;
+  color: #ffffff;
+  margin: 60px;
+  font-family: "Objectivity Regular", sans-serif;
+  font-size: 18px;
+}
+img {
+  max-width: 400px;
+  margin-bottom: 30px;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid #E50047;
+}
+
+a:hover {
+  border-bottom: 1px solid #FFF043;
+}
+
+p {
+  margin-bottom: 12px;
+}
+h1 {
+  display: inherit;
+}
+h2 {
+  font-family: "Objectivity Medium", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 24px;
+}
+h2::after {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 1px;
+  margin-top: 18px;
+  background-color: #E50047;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 20px;
+  }
+  img {
+    width: 75%
+  }
+}
