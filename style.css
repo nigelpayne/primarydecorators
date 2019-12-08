@@ -2,19 +2,19 @@
     font-family: 'Objectivity Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Objectivity Regular'), url('Objectivity-Regular.woff2') format('woff2');
+    src: local('Objectivity Regular'), url('fonts/Objectivity-Regular.woff2') format('woff2');
 }
 @font-face {
     font-family: 'Objectivity Medium';
     font-style: normal;
     font-weight: normal;
-    src: local('Objectivity Medium'), url('Objectivity-Medium.woff2') format('woff2');
+    src: local('Objectivity Medium'), url('fonts/Objectivity-Medium.woff2') format('woff2');
 }
 @font-face {
     font-family: 'Objectivity Bold';
     font-style: normal;
     font-weight: normal;
-    src: local('Objectivity Bold'), url('Objectivity-Bold.woff2') format('woff2');
+    src: local('Objectivity Bold'), url('fonts/Objectivity-Bold.woff2') format('woff2');
 }
 
 body {
@@ -23,9 +23,10 @@ body {
   margin: 60px;
   font-family: "Objectivity Regular", sans-serif;
   font-size: 18px;
+  line-height: 24px;
 }
 img {
-  max-width: 400px;
+  max-width: 50%;
   margin-bottom: 30px;
 }
 
@@ -41,6 +42,7 @@ a:hover {
 
 p {
   margin-bottom: 12px;
+  max-width: 500px;
 }
 h1 {
   display: inherit;
@@ -68,7 +70,7 @@ main {
 
 @media only screen and (max-width: 600px) {
   body {
-    margin: 20px;
+    margin: 40px;
   }
   img {
     width: 75%
